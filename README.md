@@ -14,9 +14,12 @@ Your Hub must be running JupyterHub 0.8
 
 In your `jupyterhub_config.py`, set
 
-    c.JupyterHub.spawner_class = 'dockerspawner.DockerSpawner'
+```python
+c.JupyterHub.spawner_class = 'dockerspawner.DockerSpawner'
+```
 
 and
 
-    c.DockerSpawner.image = 'defeo/jupyterhub_sagemath:latest'
-
+```python
+c.DockerSpawner.image = 'defeo/jupyterhub_sagemath:latest'
+```
