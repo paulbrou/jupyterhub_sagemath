@@ -21,5 +21,5 @@ c.JupyterHub.spawner_class = 'dockerspawner.DockerSpawner'
 and
 
 ```python
-c.DockerSpawner.image = 'defeo/jupyterhub_sagemath:latest'
+c.DockerSpawner.image = 'paulbrou/jupyterhub_sagemath:latest'
 ```
